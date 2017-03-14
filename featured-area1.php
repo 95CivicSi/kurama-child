@@ -19,13 +19,13 @@
 						<?php endif; ?>
 							<div class="titledesc">
 				            <h2><a href="<?php the_permalink() ?>"><?php echo the_title(); ?></a></h2>
-				            <span class="readmore title-font"><a href="<?php the_permalink() ?>"><?php _e('Read More','kurama') ?></a></span>
+				            <span class="readmore title-font"><a href="<?php the_permalink() ?>"><?php _e('More Info','kurama') ?></a></span>
 				        </div>
 				    	</div>	
-				        <div class="postdate">
+				        <!--<div class="postdate">
 			            	<span class="day"><?php the_time('j'); ?></span>
 			            	<span class="month"><?php the_time('M'); ?></span>
-			            </div>
+			            </div> -->
 				    </div>
 				    
 				<?php $count++;

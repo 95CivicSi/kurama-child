@@ -17,12 +17,12 @@ body {
   overflow: visible;
 }
 a {
-  color: #3f1c18;
+  color: #050505;
   cursor: pointer;
 }
 a:hover {
   text-decoration: none;
-  color: #3f1c18;
+  color: #050505;
 }
 .container {
   margin: auto;
@@ -37,7 +37,7 @@ a:hover {
   overflow: visible;
 }
 #top-bar {
-  background: #3f1c18;
+  background: #050505;
   overflow: visible;
 }
 #top-bar #search-form {
@@ -52,16 +52,16 @@ a:hover {
   width: 100%;
   border-radius: 0;
   border: none;
-  padding: 22px;
+  padding: 10px;
   padding-left: 50px;
   font-size: 16px;
-  background: #4a211c;
-  color: #d8a33e;
-  outline-color: #3f1c18;
+  background: #151515;
+  color: #8800cc;
+  outline-color: #050505;
 }
 @media screen and (max-width: 991px) {
   #top-bar #search-form label .search-field {
-    background: #3f1c18;
+    background: #050505;
   }
 }
 #top-bar #search-form label .search-field::-webkit-input-placeholder {
@@ -81,15 +81,15 @@ a:hover {
   font-family: "FontAwesome";
   position: absolute;
   left: 17px;
-  top: 14px;
-  font-size: 26px;
-  color: rgba(216, 163, 62, 0.12);
+  top: 7px;
+  font-size: 20px;
+  color: rgba(136, 0, 204, 0.5);
 }
 #head {
   padding: 0;
   display: flex;
   align-items: stretch;
-  border-bottom: solid 9px #d8a33e;
+  border-bottom: solid 9px #8800cc;
   position: relative;
   clear: both;
 }
@@ -114,9 +114,9 @@ a:hover {
 }
 #masthead {
   text-align: center;
-  background: #3f1c18;
-  padding-top: 80px;
-  padding-bottom: 160px;
+  background: #050505;
+  padding-top: 10px;
+  padding-bottom: 15px;
 }
 @media screen and (max-width: 767px) {
   #masthead {
@@ -139,13 +139,13 @@ a:hover {
   margin-top: 0px;
 }
 #masthead h1.site-title a {
-  color: #d8a33e;
+  color: #8800cc;
 }
 #masthead h2.site-description {
   font-weight: 300;
   font-size: 15px;
   margin-top: 10px;
-  color: #d8a33e;
+  color: #8800cc;
 }
 .site-branding {
   padding: 15px 0;
@@ -165,7 +165,7 @@ a:hover {
   }
 }
 .head-full {
-  background: #3f1c18;
+  background: #050505;
 }
 #header-image {
   -webkit-filter: brightness(0.9);
@@ -245,7 +245,7 @@ a:hover {
 #search-icon #searchicon {
   display: inline-block;
   background: #ffffff;
-  border: solid 2px #3f1c18;
+  border: solid 2px #050505;
   color: #bcbdaf;
   width: 50px;
   height: 50px;
@@ -260,8 +260,8 @@ a:hover {
 }
 #social-icons .social-icon {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
-  color: #3f1c18;
+  background: rgba(120, 120, 120, 0.4);
+  color: #050505;
   width: 45px;
   height: 45px;
   margin-bottom: 4px;
@@ -275,13 +275,37 @@ a:hover {
   -o-transition: 0.4s all ease;
 }
 #social-icons .social-icon:hover {
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
+  background: rgba(120, 120, 120, 0.2);
+  color: #8800cc;
+}
+#contact-icons {
+  text-align: center;
+  margin-top: 10px;
+}
+#contact-icons .contact-icon {
+  display: inline-block;
+  background: rgba(20, 20, 20, 0.5);
+  color: #fcfcfc;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 4px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 55px;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+#contact-icons .contact-icon:hover {
+  background: rgba(20, 20, 20, 0.2);
+  color: #8800cc;
 }
 /* -------- Nav Menu ---------- */
 #site-navigation {
   float: left;
-  background: #3f1c18;
+  background: #050505;
 }
 #site-navigation ul {
   /* for the Currently active page */
@@ -370,7 +394,7 @@ a:hover {
 }
 #site-navigation ul li ul.sub-menu a:hover,
 #site-navigation ul li ul.children a:hover {
-  background: #2d1411;
+  background: #230f2e;
   padding-left: 19px;
 }
 #site-navigation ul li:hover {
@@ -433,7 +457,7 @@ a:hover {
 /* TOP MENU */
 #top-menu {
   float: left;
-  background: #3f1c18;
+  background: #050505;
   padding-left: 0;
 }
 @media screen and (max-width: 767px) {
@@ -445,7 +469,7 @@ a:hover {
 }
 @media screen and (max-width: 991px) {
   #top-menu {
-    background: #4a211c;
+    background: #151515;
   }
 }
 #top-menu ul {
@@ -469,7 +493,7 @@ a:hover {
   -moz-transition: 0.4s all ease;
   -ms-transition: 0.4s all ease;
   -o-transition: 0.4s all ease;
-  background: #3f1c18;
+  background: #050505;
   z-index: 99;
   /* level 3 onwards */
 }
@@ -482,7 +506,7 @@ a:hover {
   background: #381915;
 }
 #top-menu ul ul li:nth-child(even) {
-  background: #3f1c18;
+  background: #050505;
 }
 #top-menu ul ul li a {
   text-transform: none;
@@ -512,17 +536,17 @@ a:hover {
   border-right: none;
 }
 #top-menu ul li a {
-  padding: 22px 12px;
-  color: #d8a33e;
+  padding: 10px 12px;
+  color: #8800cc;
   display: inline-block;
   font-size: 16px;
   font-weight: light;
   text-transform: uppercase;
 }
 #top-menu ul li a:hover {
-  background: #2d1411;
-  border-top: solid 2px #d8a33e;
-  padding-top: 20px;
+  background: #230f2e;
+  border-top: solid 2px #8800cc;
+  padding-top: 8px;
 }
 #top-menu ul li:hover > ul {
   opacity: 1;
@@ -541,7 +565,7 @@ a:hover {
   background: #642c26;
   border: solid 3px #76352d;
   padding: 5px;
-  color: #d8a33e;
+  color: #8800cc;
   outline: none;
   width: 200px;
   text-align: center;
@@ -593,7 +617,7 @@ a:hover {
   font-size: 24px;
   padding: 10px;
   background: rgba(0, 0, 0, 0.7);
-  border-left: solid 4px #3f1c18;
+  border-left: solid 4px #050505;
   font-weight: lighter;
 }
 .slider-wrapper .nivo-caption .slide-desc span {
@@ -718,9 +742,9 @@ a:hover {
   display: block;
   width: 10px;
   height: 18px;
-  border-top: solid 3px #3f1c18;
-  border-bottom: solid 3px #3f1c18;
-  color: #d8a33e;
+  border-top: solid 3px #050505;
+  border-bottom: solid 3px #050505;
+  color: #8800cc;
   position: absolute;
   bottom: 7px;
   left: -15px;
@@ -730,9 +754,9 @@ a:hover {
   display: block;
   width: 10px;
   height: 18px;
-  border-top: solid 3px #3f1c18;
-  border-bottom: solid 3px #3f1c18;
-  color: #d8a33e;
+  border-top: solid 3px #050505;
+  border-bottom: solid 3px #050505;
+  color: #8800cc;
   position: absolute;
   bottom: 7px;
   right: -15px;
@@ -745,7 +769,7 @@ a:hover {
   display: block;
   width: 15px;
   height: 18px;
-  border-top: solid 4px #d8a33e;
+  border-top: solid 4px #8800cc;
   position: absolute;
   bottom: 0px;
   right: -23px;
@@ -755,7 +779,7 @@ a:hover {
   display: block;
   width: 15px;
   height: 18px;
-  border-top: solid 4px #d8a33e;
+  border-top: solid 4px #8800cc;
   position: absolute;
   bottom: 0px;
   left: -23px;
@@ -795,7 +819,7 @@ a:hover {
   padding: 5px;
   color: white;
   width: 60px;
-  background: #3f1c18;
+  background: #050505;
   position: absolute;
   opacity: 0;
   top: -20px;
@@ -813,9 +837,9 @@ a:hover {
   padding-right: 8px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  border: solid 3px #51241f;
+  border: solid 3px #8800cc;
   font-size: 11px;
-  color: rgba(216, 163, 62, 0.9);
+  color: rgba(252, 252, 252, 0.9);
 }
 #featured-area-1 .imgcontainer .postdate span {
   margin-bottom: 1px;
@@ -848,10 +872,10 @@ a:hover {
   bottom: 15px;
 }
 #featured-area-1 .imgcontainer .popimage .readmore a {
-  background: #3f1c18;
-  color: rgba(216, 163, 62, 0.9);
+  background: #050505;
+  color: rgba(252, 252, 252, 0.9);
   padding: 5px;
-  border: solid 3px #51241f;
+  border: solid 3px #8800cc;
   border-right: none;
   text-transform: uppercase;
   font-size: 11px;
@@ -879,7 +903,7 @@ a:hover {
 #featured-area-1 .imgcontainer .titledesc {
   display: block;
   position: absolute;
-  background: rgba(63, 28, 24, 0.65);
+  background: rgba(20, 20, 20, 0.5);
   transition: 0.8s all ease 0.1s;
   -webkit-transition: 0.8s all ease 0.1s;
   -moz-transition: 0.8s all ease 0.1s;
@@ -1058,7 +1082,7 @@ a:hover {
 }
 .featured-2 .popular-articles .titledesc a {
   color: #eee;
-  background: #3f1c18;
+  background: #050505;
   text-align: center;
   display: block;
   width: 40%;
@@ -1095,7 +1119,7 @@ a:hover {
   pointer-events: none;
   z-index: 88;
   background: rgba(0, 0, 0, 0.4);
-  border-left-color: #3f1c18;
+  border-left-color: #050505;
   padding: 10px;
 }
 .sb-slider .sb-description h3 {
@@ -1112,7 +1136,7 @@ a:hover {
   -moz-transition: 0.2s all ease;
   -ms-transition: 0.2s all ease;
   -o-transition: 0.2s all ease;
-  box-shadow: 0px 0px 1px #3f1c18;
+  box-shadow: 0px 0px 1px #050505;
   outline: none;
 }
 .nav-arrows a:hover {
@@ -1245,7 +1269,7 @@ a:hover {
 }
 .grid .hvr-underline-from-center:before {
   height: 1px;
-  background: #3f1c18;
+  background: #050505;
 }
 .grid_2_column {
   padding: 0;
@@ -1328,7 +1352,7 @@ a:hover {
   right: 2px;
 }
 .kurama .out-thumb header {
-  border-left: solid 3px #d8a33e;
+  border-left: solid 3px #8800cc;
   position: relative;
   transform-origin: top left;
   transition: 1s all ease;
@@ -1344,7 +1368,7 @@ a:hover {
   top: 0;
   bottom: 0;
   width: 3px;
-  background: #3f1c18;
+  background: #050505;
   transition: 0.6s all ease 0s;
   -webkit-transition: 0.6s all ease 0s;
   -moz-transition: 0.6s all ease 0s;
@@ -1378,12 +1402,12 @@ a:hover {
   -o-transition: 0.4s all ease;
 }
 .kurama .out-thumb header h1.entry-title a:hover {
-  color: #3f1c18;
+  color: #050505;
 }
 .kurama .out-thumb header .readmore {
   font-weight: bold;
   text-transform: uppercase;
-  color: #3f1c18;
+  color: #050505;
   font-size: 12px;
 }
 .kurama:hover img {
@@ -1441,7 +1465,7 @@ a:hover {
   padding: 2px;
   color: white;
   width: 50px;
-  background: #3f1c18;
+  background: #050505;
   position: absolute;
   top: 0px;
   left: 0%;
@@ -1514,7 +1538,7 @@ a:hover {
   display: block;
 }
 .pagination .current {
-  border-bottom: 2px solid #3f1c18;
+  border-bottom: 2px solid #050505;
   pointer-events: none;
 }
 .pagination span {
@@ -1529,12 +1553,12 @@ a:hover {
   font-size: 16px;
   background-color: none;
   display: inline-block;
-  color: #d8a33e;
+  color: #8800cc;
   font-weight: bold;
 }
 .pagination .nav-links a:hover,
 .pagination .nav-links span:hover {
-  border-bottom: 2px solid #3f1c18;
+  border-bottom: 2px solid #050505;
 }
 #secondary {
   /*
@@ -1551,7 +1575,7 @@ aside:nth-child(odd) {
 }
 #secondary h1.widget-title {
   font-weight: normal;
-  color: #d8a33e;
+  color: #8800cc;
   font-size: 18px;
   margin-bottom: 20px;
   margin-top: 0px;
@@ -1567,7 +1591,7 @@ aside:nth-child(odd) {
   -o-transition: 0.4s all ease;
 }
 #secondary .widget a:hover {
-  color: #3f1c18;
+  color: #050505;
 }
 #secondary .widget ul {
   font-size: 14px;
@@ -1608,7 +1632,7 @@ aside:nth-child(odd) {
 #secondary .widget_nav_menu ul li:before {
   content: "\f058";
   font-family: "FontAwesome";
-  color: #3f1c18;
+  color: #050505;
   font-size: 10px;
   margin-right: 5px;
   position: relative;
@@ -1641,7 +1665,7 @@ aside:nth-child(odd) {
   -o-transform: translateX(2px);
 }
 #secondary .widget_tag_cloud .tagcloud a {
-  background: #3f1c18;
+  background: #050505;
   font-size: 14px !important;
   text-transform: uppercase;
   font-weight: normal;
@@ -1714,7 +1738,7 @@ aside:nth-child(odd) {
 #footer-sidebar .footer-column h1.widget-title {
   font-weight: normal;
   font-size: 17px;
-  color: #d8a33e;
+  color: #8800cc;
   text-transform: uppercase;
 }
 #footer-sidebar .footer-column .widget {
@@ -1730,7 +1754,7 @@ aside:nth-child(odd) {
   -o-transition: 0.4s all ease;
 }
 #footer-sidebar .footer-column .widget a:hover {
-  color: #3f1c18;
+  color: #050505;
 }
 #footer-sidebar .footer-column .widget ul {
   margin-left: 0px;
@@ -1748,7 +1772,7 @@ aside:nth-child(odd) {
   padding: 2px;
 }
 #footer-sidebar .footer-column .widget_tag_cloud .tagcloud a {
-  background: #3f1c18;
+  background: #050505;
   font-size: 14px !important;
   text-transform: uppercase;
   font-weight: normal;
@@ -1819,7 +1843,7 @@ aside:nth-child(odd) {
 #footer-sidebar .footer-column .widget_nav_menu ul li:before {
   content: "\f058";
   font-family: "FontAwesome";
-  color: #3f1c18;
+  color: #050505;
   font-size: 10px;
   margin-right: 5px;
   position: relative;
@@ -1850,7 +1874,7 @@ aside:nth-child(odd) {
 }
 #primary-mono h1.entry-title {
   font-weight: bold;
-  color: #d8a33e;
+  color: #8800cc;
   font-size: 34px;
   margin-top: 0px;
   padding: 10px;
@@ -1870,7 +1894,7 @@ aside:nth-child(odd) {
 }
 #primary-mono .entry-meta a:hover,
 #primary-mono .entry-footer a:hover {
-  color: #3f1c18;
+  color: #050505;
 }
 #primary-mono .entry-meta {
   overflow: visible;
@@ -1953,9 +1977,9 @@ aside:nth-child(odd) {
 #respond .comment-form-email label,
 #respond .comment-form-url label,
 #respond .comment-form-comment label {
-  background: #3f1c18;
+  background: #050505;
   color: #fff;
-  border-bottom: solid 1px #3f1c18;
+  border-bottom: solid 1px #050505;
   padding: 5px;
   margin-right: -5px;
   min-width: 70px;
@@ -1969,7 +1993,7 @@ aside:nth-child(odd) {
   padding: 10px;
   background: #ffffff;
   font-weight: bold;
-  color: #3f1c18;
+  color: #050505;
   margin-bottom: 60px;
 }
 #respond .comment-notes,
